@@ -59,7 +59,7 @@ function Form_Completetion(json: string) -> Completed_Form {
     Input transcript:
     {{ json }}
 
-    Now return the completed form in the required JSON structure:
+    Now return the completed form in the required structure :
     {{ ctx.output_format }}
   "#
 }
