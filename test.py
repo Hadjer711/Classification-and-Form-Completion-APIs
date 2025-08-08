@@ -96,8 +96,8 @@ Agent: That’s okay, John! I’ve noted everything down. If you need any furthe
 }
 
 # Run tests
-#test_streaming_post("/classify", classify_payload)
+test_streaming_post("/classify", classify_payload)
 print("\n")
-#test_streaming_post("/form_completion", form_payload)
+test_streaming_post("/form_completion", form_payload)
 print("\n")
 test_post("/classify_prob", classify_payload)
